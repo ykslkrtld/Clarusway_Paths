@@ -32,6 +32,7 @@ header{
     float: left;
     padding-right: 5px;
     border-radius: 10px;
+    transition: transform 1s ease-in-out;
 }
 
 .paths::after{
@@ -69,12 +70,9 @@ header{
 }
 
 .paths img:hover{
-    width: 38%;
-    padding-right: 5px;
-    border-radius: 10px;
     cursor: pointer;
-    transition: 1.5s;
-}
+    transform: scale(1.05);
+    transition: transform 1s ease;}
 
 .paths button:hover{
     padding: 15px;
